@@ -1,0 +1,40 @@
+{
+    "name": "turrsis/zend-view-assets-mvc",
+    "description": "provides a system of helpers, output filters, and variable escaping",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "zf2",
+        "view",
+        "assets"
+    ],
+    "homepage": "https://github.com/zendframework/zend-view-assets-mvc",
+    "autoload": {
+        "psr-4": {
+            "Zend\\View\\Assets\\Mvc\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^5.5 || ^7.0",
+        "zendframework/zend-mvc": "^2.6.2 || ^3.0",
+        "zendframework/zend-view-assets": "^2.5"
+    },
+    "require-dev": {
+        "fabpot/php-cs-fixer": "1.7.*",
+        "phpunit/phpunit": "^4.5"
+    },
+    "suggest": {
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.8-dev",
+            "dev-develop": "2.9-dev"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ZendTest\\View\\Assets\\Mvc\\": "test/"
+        }
+    }
+}

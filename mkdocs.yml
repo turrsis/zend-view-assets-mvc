@@ -1,0 +1,10 @@
+docs_dir: doc/book
+site_dir: doc/html
+pages:
+    - index.md
+    - "Assets Helper": assets-helper.md
+    - "Assets Listener": assets-listener.md
+site_name: zend-view-assets
+site_description: zend-view-assets
+repo_url: 'https://github.com/zendframework/zend-view-assets'
+copyright: 'Copyright (c) 2016 <a href="http://www.zend.com/">Zend Technologies USA Inc.</a>'
